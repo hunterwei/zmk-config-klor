@@ -66,10 +66,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-           &kp Q  &kp W  &kp E         &kp R         &kp T                                      &kp Y        &kp U        &kp I       &kp O    &kp P
-&kp TAB    &kp A  &kp S  &kp D         &hm LSHFT F   &kp G                                      &kp H        &hm RSHFT J  &kp K       &kp I    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp V         &kp B         &trans        &trans         &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH  &kp BSLH
-                         &kp LEFT_ALT  &lt 1 ESCAPE  &lt 2 DELETE  &kp LEFT_GUI  &kp BACKSPACE  &lt 2 ENTER  &lt 1 SPACE  &caps_word
+           &kp Q       &kp W       &kp E         &kp R         &kp T                                      &kp Y        &kp U        &kp I        &kp O       &kp P
+&kp TAB    &hm LWIN A  &hm LALT S  &hm LCTRL D   &hm LSHFT F   &kp G                                      &kp H        &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RWIN SEMICOLON  &kp SQT
+&kp LCTRL  &kp Z       &kp X       &kp C         &kp V         &kp B         &trans        &trans         &kp N        &kp M        &kp COMMA    &kp DOT     &kp FSLH            &kp BSLH
+                                   &kp LEFT_ALT  &lt 1 ESCAPE  &lt 2 DELETE  &kp LEFT_GUI  &kp BACKSPACE  &lt 2 ENTER  &lt 1 SPACE  &caps_word
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
